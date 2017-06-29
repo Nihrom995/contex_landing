@@ -1,0 +1,25 @@
+@import "global/vars";
+@import "global/mixins";
+
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/aos/src/sass/aos";
+
+
+@import "global/base";
+@import "global/sprite";
+@import "global/common";
+@import "global/icons";
+
+
+
+@import "sectons/header";
+@import "sectons/hero";
+@import "sectons/about";
+@import "sectons/products";
+@import "sectons/form";
+@import "sectons/footer";
+
+
+
+

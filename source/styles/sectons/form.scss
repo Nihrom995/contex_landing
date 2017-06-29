@@ -1,0 +1,53 @@
+.form{
+  padding: 80px;
+
+  .contact_form{
+    max-width: 600px;
+    border: 4px solid $bg-primary;
+    margin: 0 auto;
+    padding: 30px 15px;
+
+    &_form{
+      max-width: 400px;
+      text-align: center;
+      margin: 0 auto;
+
+      .title_block{
+        .title{
+          margin-bottom: 10px;
+        }
+        .title_text{
+          color:$text-color-secondary;
+          font-size: .9rem;
+        }
+      }
+
+
+      input{
+        font-size: 0.9rem;
+        font-family: $ff-main, sans-serif;
+      }
+
+
+      .btn{
+        background-color: #747474;
+        color:$white;
+        text-transform: uppercase;
+        padding: .7rem 1.6rem;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        cursor: pointer;
+
+        &:hover{
+          background-color: lighten(#747474, 12%);
+        }
+      }
+
+      .sub_text{
+        color:$text-color-light;
+        font-size: .9rem;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,19 @@
+section.form(id="form")
+    .container
+        .contact_form
+            form.contact_form_form(action="/")
+                .title_block
+                    h3.title.h2 Обратная связь
+                    p.title_text Свяжитесь с нами и мы ответим на все интересующие вас вопросы!
+
+                .form-group
+                        input(type="name" class="form-control" id="name" placeholder="Как к вам обращаться?")
+                .form-group
+                    input(type="phone" class="form-control" id="phone" placeholder="+7(999) 999-99-99")
+                .form-group
+                    input(type="email" class="form-control" id="email" placeholder="Ваш E-mail")
+                button.btn(type="submit") связаться с нами
+                p.sub_text
+                    |Нажимая кнопку «связаться с нами» вы соглашаетесь с
+                    |
+                    a(href="#") политикой конфиденциальности.

@@ -1,0 +1,40 @@
+.footer{
+  background-color: $bg-footer;
+  padding: 70px 0;
+  color:$white;
+
+  &_block{
+    &_title{
+      margin-bottom: 20px;
+    }
+    &_text{
+      font-size: 1.25rem;
+    }
+
+    &_social{
+      a{
+        color:$white;
+
+        &:hover{
+          color:darken($white, 22%);
+        }
+
+        .fa-inverse{
+          color:$bg-footer;
+        }
+      }
+    }
+  }
+}
+.copyright{
+  background-color: $bg-copyright;
+  padding: 30px 0;
+  color:#fff;
+  a{
+    color: $white;
+    text-decoration: underline;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.about{
+  background-color: $bg-secondary;
+
+  .preim_block{
+      max-width: 300px;
+      margin: 20px auto;
+
+      &_text{
+        line-height: 1.1rem;
+        font-size: .9rem;
+        color:$text-color-secondary;
+      }
+  }
+
+}

@@ -1,0 +1,40 @@
+header{
+  min-height: 80px;
+}
+
+.navbar.navbar-inverse{
+
+  min-height: 80px;
+
+  .navbar-nav{
+    .nav-link{
+      font-size: 1rem;
+      padding-left: 1.2rem;
+      padding-right: 1.2rem;
+      font-weight: 500;
+    }
+    .nav-link.active{
+      background-color: lighten($bg-primary, 12%);
+    }
+    &.social{
+      a{
+        color:$white;
+        &:hover{
+          color: darken($white, 12%)
+        }
+      }
+
+      .fa-inverse{
+        color: $bg-primary;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  header{
+    min-height: auto;
+    .navbar.navbar-inverse{
+      min-height: auto;
+    }
+  }
+}

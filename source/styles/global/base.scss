@@ -1,0 +1,24 @@
+body{
+  font-family: $ff-main, sans-serif;
+  color:$text-color-primary;
+  position: relative;
+}
+a{
+  transition: .4s;
+  color:$bg-primary;
+
+  &:hover{
+    color:lighten($bg-primary, 12%);
+  }
+}
+section{
+  padding: 70px;
+}
+ul{
+  list-style-type: none;
+  padding-left: 3px;
+}
+*:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}

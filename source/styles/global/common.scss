@@ -1,0 +1,17 @@
+.bg-primary{
+  background-color: $bg-primary !important;
+}
+.bg-secondary{
+  background-color: $bg-secondary !important;
+}
+.section_title{
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.text-weight-500{
+  font-weight: 500;
+}
+[class*='btn-outline-']{
+  border-width: 2px;
+  text-transform: uppercase;
+}

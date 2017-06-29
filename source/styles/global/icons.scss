@@ -1,0 +1,13 @@
+[class*="icon_"]{
+  margin: 10px auto;
+}
+
+.icon_shield{
+  @include sprite($shield);
+}
+.icon_delivery{
+  @include sprite($delivery);
+}
+.icon_check{
+  @include sprite($check);
+}
