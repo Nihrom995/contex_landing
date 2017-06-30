@@ -15,3 +15,15 @@
   border-width: 2px;
   text-transform: uppercase;
 }
+.modal-content{
+  border-radius: 0px;
+}
+.modal-body{
+  padding: 0px;
+}
+@media (max-width: 575px) {
+  .container{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

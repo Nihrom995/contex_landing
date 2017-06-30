@@ -1,0 +1,24 @@
+.modal.fade(id="requestForm")
+    .modal-dialog(role="form")
+        .modal-content
+            .modal-body
+                .contact_form
+                    form.contact_form_form(action="/")
+                        .title_block
+                            h3.title.h2 Оставить заявку
+                            p.title_text Если вы хотите заказать продукцию или у вас есть вопрос, заполните эту форму - мы ответим вам в ближайшее время.
+
+                        .form-group
+                            input(type="email" class="form-control" id="email" placeholder="Ваше E-mail")
+                        .form-group
+                            textarea(type="message" class="form-control" id="message" rows="5" placeholder="Ваше сообщение...")
+                        button.btn(type="submit") Оставить заявку
+                        p.sub_text
+                            | Нажимая кнопку «Оставить заявку» вы соглашаетесь с
+                            |
+                            a(href="#") политикой конфиденциальности.
+
+                    //-
+                        a(data-dismiss="modal" aria-label="Close")
+                            i.fa.fa-close.fa-fw
+                            | Закрыть форму
